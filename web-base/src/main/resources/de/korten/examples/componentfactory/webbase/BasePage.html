@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org">
+
+<head>
+    <style>
+
+        * {
+            font-family: Arial, serif;
+        }
+
+        header {
+            padding: 10px 20px;
+            background: #f5f4fb;
+            border: 1px solid #ebeaf1;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .content {
+            margin-top: 50px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <span>ComponentProvider</span>
+    <div wicket:id="login"></div>
+</header>
+
+<div class="content">
+    <wicket:child/>
+</div>
+
+
+</body>
+</html>
