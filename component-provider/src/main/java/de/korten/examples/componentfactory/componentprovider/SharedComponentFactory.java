@@ -27,7 +27,7 @@ public class SharedComponentFactory {
         } catch (NoSuchMethodException e) {
             throw new IllegalStateException("Die zu initialisierende Komponente hat keinen Wicket-Standard-Konstruktor", e);
         } catch (IllegalAccessException | InstantiationException | InvocationTargetException e) {
-            throw new IllegalStateException("Die Komponente konnte nicht initalisiert werden", e);
+            throw new IllegalStateException("Die Komponente konnte nicht initialisiert werden", e);
         }
 
     }
