@@ -1,4 +1,5 @@
 rootProject.name = 'wicket-component-factory'
 include 'web-base'
 include 'login'
+include 'component-provider'
 

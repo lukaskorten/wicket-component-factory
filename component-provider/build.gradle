@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    implementation(
+            'org.apache.wicket:wicket-core:8.1.0',
+            'org.springframework:spring-context:5.0.9.RELEASE',
+            'org.reflections:reflections:0.9.10'
+    )
+
+}

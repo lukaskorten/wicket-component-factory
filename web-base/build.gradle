@@ -11,5 +11,7 @@ dependencies {
             'org.wicketstuff:wicketstuff-annotation:8.1.0',
             'org.wicketstuff:wicketstuff-lazymodel:8.1.0',
             'org.springframework:spring-context:5.0.9.RELEASE',
+            project(':component-provider')
     )
+
 }
