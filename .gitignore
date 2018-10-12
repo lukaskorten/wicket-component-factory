@@ -1,5 +1,8 @@
 .gradle
 /build/
+component-provider/build/
+login/build/
+web-base/build/
 !gradle/wrapper/gradle-wrapper.jar
 
 ### STS ###
@@ -17,6 +20,9 @@
 *.iml
 *.ipr
 /out/
+login/out/
+web-base/out/
+component-provider/out/
 
 ### NetBeans ###
 /nbproject/private/
